@@ -42,7 +42,7 @@ $result = app('databasetool')->repair(['dou_admin', 'dou_admin_log', 'dou_articl
 返回结果
 ```php
 [
-	[statue] => success
+    [statue] => success
     [message] => 修复成功！
     [result] => []
 ]
