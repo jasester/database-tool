@@ -1,0 +1,25 @@
+{
+    "name": "hnndy/database-tool",
+    "description": "A Database Tool",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jasester",
+            "email": "jasester@163.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Hnndy\\DatabaseTool\\": "src/"
+        }
+    },
+    "extra" : {
+        "laravel" : {
+            "providers" : [
+                "Hnndy\\DatabaseTool\\DatabaseToolProvider"
+            ]
+        }
+    }
+}
