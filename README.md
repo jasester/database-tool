@@ -25,6 +25,8 @@ $datas = app('databasetool')->getDatabaseTables();
 ```
 ##2.优化选中的表
 ```php
+$result = app('databasetool')->optimize('dou_admin');
+or
 $result = app('databasetool')->optimize(['dou_admin', 'dou_admin_log', 'dou_article']);
 ```
 返回结果
@@ -37,6 +39,8 @@ $result = app('databasetool')->optimize(['dou_admin', 'dou_admin_log', 'dou_arti
 ```
 ###3.修复选中的表
 ```php
+$result = app('databasetool')->repair('dou_admin');
+or
 $result = app('databasetool')->repair(['dou_admin', 'dou_admin_log', 'dou_article']);
 ```
 返回结果
